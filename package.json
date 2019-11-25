@@ -1,5 +1,5 @@
 {
-  "name": "iobroker.ipswitch.kwh",
+  "name": "iobroker.ipswitch",
   "version": "0.0.1",
   "description": "ipswitch.kwh Power Meter",
   "author": {
