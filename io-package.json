@@ -1,0 +1,79 @@
+{
+    "common": {
+        "name": "ipswitch.kwh",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "ipswitch.kwh",
+        "titleLang": {
+            "en": "ipswitch.kwh",
+            "de": "ipswitch.kwh",
+            "ru": "ipswitch.kwh",
+            "pt": "ipswitch.kwh",
+            "nl": "ipswitch.kwh",
+            "fr": "ipswitch.kwh",
+            "it": "ipswitch.kwh",
+            "es": "ipswitch.kwh",
+            "pl": "ipswitch.kwh",
+            "zh-cn": "ipswitch.kwh"
+        },
+        "desc": {
+            "en": "ipswitch.kwh power meter",
+            "de": "ipswitch.kwh power meter",
+            "ru": "ipswitch.kwh power meter",
+            "pt": "ipswitch.kwh power meter",
+            "nl": "ipswitch.kwh power meter",
+            "fr": "ipswitch.kwh power meter",
+            "it": "ipswitch.kwh power meter",
+            "es": "ipswitch.kwh power meter",
+            "pl": "ipswitch.kwh power meter",
+            "zh-cn": "ipswitch.kwh power meter"
+        },
+        "authors": [
+            "fusenigk <kf@fsng.de>"
+        ],
+        "keywords": [
+            "power",
+            "haus"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "ipswitchkwh.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/fusenigk/ioBroker.ipswitch.kwh/master/admin/ipswitchkwh.png",
+        "readme": "https://github.com/fusenigk/ioBroker.ipswitch.kwh/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+
+        "materialize": true,
+        "materializeTab": true,
+
+        "type": "energy",
+        "compact": true,
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
