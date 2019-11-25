@@ -40,13 +40,12 @@ class ipswitch extends utils.Adapter {
 		// this.log.info("config option2: " + this.config.option2);
 		
 		this.log.info("onReady");
-		this.log.info("config ipswitch-Ip sensor: " + this.config.stromlogip);
+		this.log.info("config ipswitch-Ip sensor: " + this.config.ipswitchip);
 
-		//var url = "http://" + this.config.stromlogip + "/csv.html" ;
 		
 		request(
                     {
-                        url: 'http://' + this.config.stromlogip + '/csv.html',
+                        url: 'http://' + this.config.ipswitchip + '/csv.html',
                         json: false,
                         time: true,
                         timeout: 4500
@@ -69,11 +68,11 @@ class ipswitch extends utils.Adapter {
                         	var tokeniC3 = tokens[3] ;
 							var tokenTemp = tokens[4] ;
 
-							this.log.info('Name: ' + tokenName) ;
-                        	this.log.info('iC1: ' + tokeniC1) ;
-                        	this.log.info('iC2: ' + tokeniC2) ;
-                        	this.log.info('iC3: ' + tokeniC3) ;
-                        	this.log.info('Temp: ' + tokenTemp) ;
+							//this.log.info('Name: ' + tokenName) ;
+                        	//this.log.info('iC1: ' + tokeniC1) ;
+                        	//this.log.info('iC2: ' + tokeniC2) ;
+                        	//this.log.info('iC3: ' + tokeniC3) ;
+                        	t//his.log.info('Temp: ' + tokenTemp) ;
 
 							this.setObjectNotExists('IC1' , {
 					                                            type: 'state',

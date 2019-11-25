@@ -1,6 +1,6 @@
 {
     "common": {
-        "name": "ipswitch.kwh",
+        "name": "ipswitch",
         "version": "0.0.1",
         "news": {
             "0.0.1": {
@@ -16,30 +16,30 @@
                 "zh-cn": "首次出版"
             }
         },
-        "title": "ipswitch.kwh",
+        "title": "ipswitch",
         "titleLang": {
-            "en": "ipswitch.kwh",
-            "de": "ipswitch.kwh",
-            "ru": "ipswitch.kwh",
-            "pt": "ipswitch.kwh",
-            "nl": "ipswitch.kwh",
-            "fr": "ipswitch.kwh",
-            "it": "ipswitch.kwh",
-            "es": "ipswitch.kwh",
-            "pl": "ipswitch.kwh",
-            "zh-cn": "ipswitch.kwh"
+            "en": "ipswitch",
+            "de": "ipswitch",
+            "ru": "ipswitch",
+            "pt": "ipswitch",
+            "nl": "ipswitch",
+            "fr": "ipswitch",
+            "it": "ipswitch",
+            "es": "ipswitch",
+            "pl": "ipswitch",
+            "zh-cn": "ipswitch"
         },
         "desc": {
-            "en": "ipswitch.kwh power meter",
-            "de": "ipswitch.kwh power meter",
-            "ru": "ipswitch.kwh power meter",
-            "pt": "ipswitch.kwh power meter",
-            "nl": "ipswitch.kwh power meter",
-            "fr": "ipswitch.kwh power meter",
-            "it": "ipswitch.kwh power meter",
-            "es": "ipswitch.kwh power meter",
-            "pl": "ipswitch.kwh power meter",
-            "zh-cn": "ipswitch.kwh power meter"
+            "en": "ipswitch power meter",
+            "de": "ipswitch power meter",
+            "ru": "ipswitch power meter",
+            "pt": "ipswitch power meter",
+            "nl": "ipswitch power meter",
+            "fr": "ipswitch power meter",
+            "it": "ipswitch power meter",
+            "es": "ipswitch power meter",
+            "pl": "ipswitch power meter",
+            "zh-cn": "ipswitch power meter"
         },
         "authors": [
             "fusenigk <kf@fsng.de>"
@@ -53,8 +53,8 @@
         "main": "main.js",
         "icon": "ipswitchkwh.png",
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/fusenigk/ioBroker.ipswitch.kwh/master/admin/ipswitchkwh.png",
-        "readme": "https://github.com/fusenigk/ioBroker.ipswitch.kwh/blob/master/README.md",
+        "extIcon": "https://raw.githubusercontent.com/fusenigk/ioBroker.ipswitch/master/admin/ipswitchkwh.png",
+        "readme": "https://github.com/fusenigk/ioBroker.ipswitch/blob/master/README.md",
         "loglevel": "info",
         "mode": "daemon",
 

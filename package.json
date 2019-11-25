@@ -1,7 +1,7 @@
 {
   "name": "iobroker.ipswitch",
   "version": "0.0.1",
-  "description": "ipswitch.kwh Power Meter",
+  "description": "ipswitch Power Meter",
   "author": {
     "name": "fusenigk",
     "email": "kf@fsng.de"
