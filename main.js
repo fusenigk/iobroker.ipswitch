@@ -20,7 +20,7 @@ class ipswitch extends utils.Adapter {
 	constructor(options) {
 		super({
 			...options,
-			name: "ipswitch
+			name: "ipswitch",
 		this.on("ready", this.onReady.bind(this));
 		this.on("objectChange", this.onObjectChange.bind(this));
 		this.on("stateChange", this.onStateChange.bind(this));
