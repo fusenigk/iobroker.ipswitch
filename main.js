@@ -74,7 +74,7 @@ class ipswitch extends utils.Adapter {
                         	//this.log.info('iC1: ' + tokeniC1) ;
                         	//this.log.info('iC2: ' + tokeniC2) ;
                         	//this.log.info('iC3: ' + tokeniC3) ;
-                        	t//his.log.info('Temp: ' + tokenTemp) ;
+                        	//his.log.info('Temp: ' + tokenTemp) ;
 
 							this.setObjectNotExists('IC1' , {
 					                                            type: 'state',
