@@ -56,7 +56,8 @@
         "extIcon": "https://raw.githubusercontent.com/fusenigk/ioBroker.ipswitch/master/admin/ipswitchkwh.png",
         "readme": "https://github.com/fusenigk/ioBroker.ipswitch/blob/master/README.md",
         "loglevel": "info",
-        "mode": "daemon",
+        "mode": "schedule",
+        "schedule": "1 * * * *",
 
         "materialize": true,
         "materializeTab": true,
