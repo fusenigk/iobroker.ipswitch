@@ -12,7 +12,7 @@ const request = require('request');
 // Load your modules here, e.g.:
 // const fs = require("fs");
 
-class stromlog extends utils.Adapter {
+class ipswitch extends utils.Adapter {
 
 	/**
 	 * @param {Partial<ioBroker.AdapterOptions>} [options={}]
@@ -20,8 +20,7 @@ class stromlog extends utils.Adapter {
 	constructor(options) {
 		super({
 			...options,
-			name: "stromlog",
-		});
+			name: "ipswitch
 		this.on("ready", this.onReady.bind(this));
 		this.on("objectChange", this.onObjectChange.bind(this));
 		this.on("stateChange", this.onStateChange.bind(this));
@@ -41,7 +40,7 @@ class stromlog extends utils.Adapter {
 		// this.log.info("config option2: " + this.config.option2);
 		
 		this.log.info("onReady");
-		this.log.info("config stromlog-Ip sensor: " + this.config.stromlogip);
+		this.log.info("config ipswitch-Ip sensor: " + this.config.stromlogip);
 
 		//var url = "http://" + this.config.stromlogip + "/csv.html" ;
 		
@@ -270,8 +269,8 @@ if (module.parent) {
 	/**
 	 * @param {Partial<ioBroker.AdapterOptions>} [options={}]
 	 */
-	module.exports = (options) => new stromlog(options);
+	module.exports = (options) => new ipswitch(options);
 } else {
 	// otherwise start the instance directly
-	new stromlog();
+	new ipswitch();
 }
