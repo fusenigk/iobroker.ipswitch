@@ -57,7 +57,7 @@
         "readme": "https://github.com/fusenigk/ioBroker.ipswitch/blob/master/README.md",
         "loglevel": "info",
         "mode": "schedule",
-        "schedule": "1 * * * *",
+        "schedule": "*/1 * * * *",
 
         "materialize": true,
         "materializeTab": true,

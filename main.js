@@ -206,7 +206,7 @@ class ipswitch extends utils.Adapter {
 	 */
 	onUnload(callback) {
 		try {
-			this.log.info("cleaned everything up...");
+			//this.log.info("cleaned everything up...");
 			callback();
 		} catch (e) {
 			callback();
